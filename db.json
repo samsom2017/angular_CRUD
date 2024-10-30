@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": 10,
+      "name": "MacBook",
+      "category": "Laptop",
+      "brand": "Apple"
+    },
+    {
+      "id": 11,
+      "name": "Test1",
+      "category": "Test1",
+      "brand": "Test1"
+    },
+    {
+      "id": 12,
+      "name": "test2",
+      "category": "test2",
+      "brand": "test2"
+    },
+    {
+      "id": 13,
+      "name": "test22",
+      "category": "test22",
+      "brand": "test22"
+    },
+    {
+      "id": 14,
+      "name": "Samsom",
+      "category": "test22",
+      "brand": "Samsung2"
+    }
+  ]
+}

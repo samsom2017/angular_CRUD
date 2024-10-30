@@ -1,0 +1,46 @@
+
+
+<div class="container mt-4 pt-4" style="width: 330px; height: 310px; border: 1px solid; background-color: rgb(146, 240, 240); padding-right: 20px;">
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="item.name" name="name" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="category">Category</label>
+        <input type="text" class="form-control" id="category" [(ngModel)]="item.category" name="category" placeholder="Enter category">
+      </div>
+      <div class="form-group">
+        <label for="brand">Brand</label>
+        <input type="text" class="form-control" id="brand" [(ngModel)]="item.brand" name="brand" placeholder="Enter brand">
+      </div>
+      <br>
+      <button type="button" (click)="update()" class="btn btn-primary">Submit</button>
+      <button type="button" (click)="cancel()" class="btn btn-secondary m-4">Cancel</button>
+    </form>
+  </div>
+  
+
+
+<!-- <div class="container mt-4 pt-4" style="width: 330px; height: 310px; border: 1px solid;background-color: rgb(146,240,240); padding-right: 20px;">
+    <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" name="name" [(ngModel)]="item.name" id="name" aria-describedby="name" placeholder="Enter name">
+         
+        </div>
+        <div class="form-group">
+          <label for="name">Category</label>
+          <input type="text" class="form-control" name="category" [(ngModel)]="item.category"  name="category" aria-describedby="category" placeholder="Enter category">
+         
+        </div>
+        <div class="form-group">
+          <label for="name"> Brand</label>
+          <input type="text" class="form-control" name="brand" [(ngModel)]="item.brand"  id="brand" aria-describedby="brand" placeholder="Enter brand">
+         
+        </div>
+        <br>
+        <button type="submit" (click)="update()" class="btn btn-primary">Submit</button>
+        <button type="button" (click)="cancel()" class="btn btn-primary m-4">cancel</button>
+      </form>
+</div> -->
